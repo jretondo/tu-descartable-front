@@ -5,15 +5,15 @@ let publicFiles = ""
 const local = 1
 if (process.env.NODE_ENV === "development") {
     if (local === 1) {
-        host = "http://localhost:3002/api"
-        publicFiles = "http://localhost:3002/static"
+        host = "http://localhost:3004/api"
+        publicFiles = "http://localhost:3004/static"
     } else {
-        host = "https://api-test.nekoadmin.com.ar/shop-limpieza/api"
-        publicFiles = "https://api-test.nekoadmin.com.ar/shop-limpieza/static"
+        host = "https://api-test.nekoadmin.com.ar/tudescartable/api"
+        publicFiles = "https://api-test.nekoadmin.com.ar/tudescartable/static"
     }
 } else {
-    host = "https://api-prod.nekoadmin.com.ar/shop-limpieza/api"
-    publicFiles = "https://api-prod.nekoadmin.com.ar/shop-limpieza/static"
+    host = "https://api-prod.nekoadmin.com.ar/tudescartable/api"
+    publicFiles = "https://api-prod.nekoadmin.com.ar//static"
 }
 
 const prodImages = publicFiles + "/images/products/"

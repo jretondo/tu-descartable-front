@@ -160,7 +160,7 @@ class Sidebar extends React.Component {
             <button
               className="navbar-toggler"
               type="button"
-              style={{ background: "#00b9b9" }}
+              style={{ background: "#52300e" }}
               onClick={this.toggleCollapse}
             >
               <span className="navbar-toggler-icon" />
