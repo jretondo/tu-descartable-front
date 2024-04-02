@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === "development") {
     }
 } else {
     host = "https://api-prod.nekoadmin.com.ar/tudescartable/api"
-    publicFiles = "https://api-prod.nekoadmin.com.ar//static"
+    publicFiles = "https://api-prod.nekoadmin.com.ar/tudescartable/static"
 }
 
 const prodImages = publicFiles + "/images/products/"

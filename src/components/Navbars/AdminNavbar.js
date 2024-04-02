@@ -43,7 +43,7 @@ const AdminNavbar = (props) => {
         <Navbar className="navbar-top navbar-dark" expand="md" id="navbar-main">
           <Container fluid>
             <Link
-              className="h4 mb-0 text-black text-uppercase d-none d-lg-inline-block"
+              className="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block"
               to="/cbabaitcast/"
             >
               {props.brandText}
@@ -59,7 +59,7 @@ const AdminNavbar = (props) => {
                       />
                     </span>
                     <Media className="ml-2 d-none d-lg-block">
-                      <span className="mb-0 text-sm font-weight-bold" style={{ color: "black" }}>
+                      <span className="mb-0 text-sm font-weight-bold">
                         {nombre} {" "}{apellido}
                       </span>
                     </Media>
